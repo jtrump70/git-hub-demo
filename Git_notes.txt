@@ -1,0 +1,3 @@
+Create a Git Repo:
+	- Create a project
+	- 
