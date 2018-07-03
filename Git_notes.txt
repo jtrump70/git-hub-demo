@@ -4,7 +4,9 @@ Create a Git Repo:
 	- git add
 	- git status
 	- git commit -m "[SPD-1]: Jira number 1 - Git lesson commit"
+		- git revert allows you to edit a commit 
 	- git log - tells us what has been commited
+		- You can referenc this commit using the first 7 characters
 	- in order to reconfigure your git account
 		git config --global --edit
 		After doing this, you may fix the identity used for this commit with:
@@ -22,3 +24,15 @@ Create a new branch
 		- go to a different branch
 		- git branch -D topics/wip-SPD-2
 	- git checkout -b : creates and switches to a new branch
+	
+Using git GUI
+	- shows you unstaged change and the changes that have been made
+	- click on the logo to git add
+	- put your message in the text box at the bottom
+	
+Pulling from master
+	- Open a pull request
+	- create an explanitory message as to why
+	- click create pull request
+	
+Combining multiple commits
