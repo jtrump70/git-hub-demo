@@ -1,3 +1,24 @@
 Create a Git Repo:
 	- Create a project
-	- 
+	- git init
+	- git add
+	- git status
+	- git commit -m "[SPD-1]: Jira number 1 - Git lesson commit"
+	- git log - tells us what has been commited
+	- in order to reconfigure your git account
+		git config --global --edit
+		After doing this, you may fix the identity used for this commit with:
+		git commit --amend --reset-author
+	- git pull --rebase origin master
+	- git push
+	
+Create a new branch
+	- git branch branchName (topics/wip-SPD-2
+	- git branch: shows you your branches
+	- git checkout topics/wip-SPD-2
+	- in order to return to master: git checkout master
+	- git checkout - : returns you to previous branch
+	- deleting a branch	
+		- go to a different branch
+		- git branch -D topics/wip-SPD-2
+	- git checkout -b : creates and switches to a new branch
